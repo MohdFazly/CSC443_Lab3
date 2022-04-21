@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic PHP Syntax</title>
+    <title>Document</title>
 </head>
 <body>
     <?php
-    $int = 12;
-    $double = 10.37;
-    $int = $int + $double;
-    echo $int;
+    $username = "Fred Smith"
+    echo $username;
+    echo "<br />";
+    $current_user = $username;
+    echo $current_user;
+    echo "<br />";
+    $numl = 10.5;
+    echo $numl;
     ?>
 </body>
 </html>
