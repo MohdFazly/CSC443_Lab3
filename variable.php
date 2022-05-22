@@ -8,14 +8,9 @@
 </head>
 <body>
     <?php
-    $username = "Fred Smith"
-    echo $username;
-    echo "<br />";
-    $current_user = $username;
-    echo $current_user;
-    echo "<br />";
-    $numl = 10.5;
-    echo $numl;
+$a = "PHP";
+$a = $a + 1;
+echo $a;
     ?>
 </body>
 </html>
